@@ -1,4 +1,4 @@
-package com.ccprestige;
+package com.ccprestige.config;
 
 import org.sitemesh.builder.SiteMeshFilterBuilder;
 import org.sitemesh.config.ConfigurableSiteMeshFilter;
