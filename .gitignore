@@ -1,1 +1,23 @@
-/target/
+# Build files
+/build.properties
+target/
+
+# Eclipse files
+/.settings/
+/.classpath
+.metadata
+/.project
+.actionScriptProperties
+.flashProjectProperties
+.tomcatplugin
+
+# Mac OS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+/bin
+/.externalToolBuilders
