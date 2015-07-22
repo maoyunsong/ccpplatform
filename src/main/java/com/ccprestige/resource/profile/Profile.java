@@ -12,11 +12,15 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 @Entity
 public class Profile extends BaseEntity {
 
+	private static final long serialVersionUID = 1L;
+	
 	@Email
 	@NotNull
 	@Size(max = 255)
 	private String email;
 
+	@NotNull
+	@Size(min=8, max=32)
 	private String password;
 
 	@Size(max = 255)

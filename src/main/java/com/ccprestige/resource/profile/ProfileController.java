@@ -19,7 +19,7 @@ public class ProfileController {
 		this.profileService = profileService;
 	}
 	
-	@RequestMapping(value="/{id}", method=RequestMethod.GET , name="self")
+	@RequestMapping(value="/{id}", method=RequestMethod.GET)
 	public Profile read(@PathVariable("id") Long id) {
 		return profileService.getProfile(id);
 	}
